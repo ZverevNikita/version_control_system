@@ -1,3 +1,6 @@
+import tkinter as tk
+import save_version, show_versions, rollback_version
+
 root = tk.Tk()
 root.title('Система контроля версий')
 
