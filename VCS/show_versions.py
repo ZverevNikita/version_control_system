@@ -1,6 +1,3 @@
-import database
-import tkinter as tk
-
 def show_versions(root):
     versions_window = tk.Toplevel(root)
     versions_window.title('Предыдущие версии кода')
