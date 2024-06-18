@@ -1,5 +1,3 @@
-import sqlite3
-
 connect = sqlite3.connect('code_versions.db')
 c = connect.cursor()
 
