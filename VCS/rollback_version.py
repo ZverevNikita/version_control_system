@@ -1,6 +1,3 @@
-import database
-from tkinter import messagebox
-
 def rollback_version(code_text):
     author, code = database.get_previous_version()
     if code:
